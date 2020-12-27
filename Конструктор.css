@@ -1,0 +1,839 @@
+.vse {
+position: fixed; 
+width: 340px;
+height: 33px; 
+left: 120px; 
+top: 123px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-size: 27px;
+font-weight: normal;
+letter-spacing: 0.07em;
+vertical-align: middle;
+color: white; 
+text-align: center; 
+padding: 15px 15px; 
+background: black;
+border: 1.5px solid black;
+border-radius: 30px;
+box-shadow: 0px 0px 10px 1px white;
+transition: 0.25s;
+
+}
+.vse:hover {
+	width: 380px;
+	left: 100px;
+	top: 115px;
+	height: 30px;
+	padding: 24px 15px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	border-radius: 40px;
+	background: white;
+	border: 1.5px solid black;
+	border-radius: 40px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+
+.konst {
+position: fixed; 
+width: 350px;
+height: 33px; 
+left: 610px; 
+top: 121px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-size: 27px;
+font-weight: bold;
+letter-spacing: 0.05em;
+vertical-align: middle;
+color: black; 
+text-align: center; 
+padding: 17px 15px; 
+background: white;
+border: 1.5px solid black;
+border-radius: 40px;
+box-shadow: 0px 0px 10px 1px black;
+transition: 0.25s;
+
+}
+.konst:hover {
+	width: 380px;
+	left: 595px;
+	top: 115px;
+	height: 30px;
+	padding: 24px 15px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	border-radius: 40px;
+	background: white;
+	border: 1.5px solid black;
+	border-radius: 40px;
+	box-shadow: 0px 0px 10px 1px black;
+	
+}
+
+
+.kat {
+position: fixed; 
+width: 340px;
+height: 33px; 
+right: 120px; 
+top: 123px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-size: 27px;
+font-weight: normal;
+letter-spacing: 0.07em;
+vertical-align: middle;
+color: white; 
+text-align: center; 
+padding: 15px 15px; 
+background: black;
+border: 1.5px solid black;
+border-radius: 30px;
+box-shadow: 0px 0px 10px 1px white;
+transition: 0.25s;
+
+}
+.kat:hover {
+	width: 380px;
+	right: 100px;
+	top: 115px;
+	height: 30px;
+	padding: 24px 15px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	border-radius: 40px;
+	background: white;
+	border: 1.5px solid black;
+	border-radius: 40px;
+	box-shadow: 0px 0px 10px 1px black;
+	
+}
+
+
+.iconka1 {
+position: fixed;
+width: 70px; 
+height: 70px; 
+left: 60px; 
+top: 15px; 
+box-shadow: 0px 0px 7px 1px white; 
+border: 1px solid white;
+z-index: 1;
+transition: 0.25s;
+}
+
+.iconka1:hover {
+	position: fixed;
+	width: 80px; 
+	height: 80px; 
+	left: 55px; 
+	top: 10px; 
+	box-shadow: 0px 0px 15px 1px white; 
+	border: 1px solid white; 
+	z-index: 1;
+}
+
+
+.soc {
+position: fixed;
+width: 290px;
+height: 20px;
+left: 60px; 
+bottom: 12px;
+padding: 5px 0px 5px 0px; 
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 19px; 
+text-align: center;
+letter-spacing: 0.2em;
+color: white;
+border: 2px solid white;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 1px white; 
+z-index: 1;
+transition: 0.5s;
+}
+
+.soc:hover {
+	position: fixed;
+	width: 290px;
+	height: 20px;
+	left: 60px; 
+	bottom: 12px;
+	padding: 5px 210px 5px 10px; 
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 19px; 
+	text-align: center;
+	letter-spacing: 0.25em;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 1px white; 
+	z-index: 1;
+}
+
+
+.instagram {
+position: fixed;
+width: 24px;
+height: 24px;
+left: 345px;
+bottom: 16px;
+opacity: 0;
+transition: 0.5s;
+
+}
+.soc:hover .instagram{ 
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	left: 375px;
+	bottom: 16px;
+	opacity: 1;
+}
+
+
+.telegram {
+position: fixed;
+width: 24px;
+height: 24px;
+left: 345px;
+bottom: 16px;
+opacity: 0;
+transition: 0.5s;
+
+}
+.soc:hover .telegram {
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	left: 415px;
+	bottom: 16px;
+	opacity: 1;
+}
+
+
+.vk {
+position: fixed;
+width: 24px;
+height: 24px;
+left: 345px;
+bottom: 16px;
+opacity: 0;
+transition: 0.5s;
+
+}
+.soc:hover .vk {
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	left: 455px;
+	bottom: 16px;
+	opacity: 1;
+}
+
+
+.whatsapp {
+position: fixed;
+width: 24px;
+height: 24px;
+left: 345px;
+bottom: 16px;
+opacity: 0;
+transition: 0.5s;
+
+}
+.soc:hover .whatsapp {
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	left: 495px;
+	bottom: 16px;
+	opacity: 1;
+}
+
+
+.facebook {
+position: fixed;
+width: 24px;
+height: 24px;
+left: 345px;
+bottom: 16px;
+opacity: 0;
+transition: 0.5s;
+
+}
+.soc:hover .facebook {
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	left: 535px;
+	bottom: 16px;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.konst1 {
+position: absolute; 
+width: 370px;
+height: 370px; 
+left: 120px;
+top: 260px; 
+border: 1.5px solid black; 
+border-radius: 50px; 
+box-shadow: 0px 0px 10px 1px black;
+transition: 0.25s;
+}
+
+.konst1:hover {
+	position: absolute; 
+	width: 370px;
+	height: 370px; 
+	left: 120px;
+	top: 260px; 
+	border: 1.5px solid black; 
+	border-radius: 50px; 
+	box-shadow: 0px 0px 15px 1px black;
+}
+
+
+.konst1t1 {
+position: absolute; 
+left: 55px; 
+top: 20px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: center; 
+letter-spacing: 0.05em; 
+color: black;
+transition: 0.25s;
+}
+
+.konst1t1:hover {
+	position: absolute; 
+	left: 45px; 
+	top: 20px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: center; 
+	letter-spacing: 0.1em; 
+	color: black;
+}
+
+.konst1t2 {
+position: absolute; 
+left: 15px; 
+top:80px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: center; 
+letter-spacing: 0.1em; 
+color: black;
+transition: 0.25s;
+
+}
+
+.konst1t2:hover {
+	position: absolute; 
+	left: 14px; 
+	top: 80px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: center; 
+	letter-spacing: 0.15em; 
+	color: black;
+	
+}
+
+.konst1t3 {
+position: absolute; 
+left: 15px; 
+top: 185px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: center; 
+letter-spacing: 0.1em; 
+color: black;
+transition: 0.25s;
+
+}
+
+.konst1t3:hover {
+	position: absolute; 
+	left: 14px; 
+	top: 185px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: center; 
+	letter-spacing: 0.15em; 
+	color: black;
+}		
+
+.konst1t4 {
+position: absolute; 
+left: 15px; 
+bottom: 47px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: center; 
+letter-spacing: 0.1em; 
+color: black;
+transition: 0.25s;
+}
+
+.konst1t4:hover {
+	position: absolute; 
+	left: 14px; 
+	bottom: 47px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: center; 
+	letter-spacing: 0.15em; 
+	color: black;
+
+	}
+
+.konst1t5 {
+position: absolute; 
+left: 60px; 
+top: 80px;
+width: 260px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: left; 
+letter-spacing: 0.05em; 
+color: black;
+transition: 0.25s;
+
+}
+
+.konst1t5:hover {
+	position: absolute; 
+	left: 55px; 
+	top: 80px; 
+	width: 280px;
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: left; 
+	letter-spacing: 0.1em; 
+	color: black;
+
+
+}
+
+.konst1t6 {
+position: absolute; 
+left: 60px; 
+top: 185px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: left; 
+letter-spacing: 0.05em; 
+color: black;
+transition: 0.25s;
+
+}
+
+.konst1t6:hover {
+	position: absolute; 
+	left: 55px; 
+	top: 185px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: left; 
+	letter-spacing: 0.1em; 
+	color: black;
+}
+
+.konst1t7 {
+position: absolute;
+width: 250px; 
+left: 60px; 
+bottom: 20px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+text-align: left; 
+letter-spacing: 0.05em; 
+color: black;
+transition: 0.25s;
+
+}
+
+.konst1t7:hover {
+	position: absolute; 
+	left: 55px; 
+	bottom:  20px;
+	width: 300px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	text-align: left; 
+	letter-spacing: 0.1em; 
+	color: black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.konst2 {
+position: absolute; 
+width: 370px;
+height: 370px; 
+left: 615px;
+top: 260px; 
+border: 1.5px solid black; 
+border-radius: 50px; 
+box-shadow: 0px 0px 10px 1px black;
+transition: 0.25s;
+}
+
+
+.konst2:hover {
+	position: absolute; 
+	width: 370px;
+	height: 370px; 
+	left: 615px;
+	top: 260px; 
+	border: 1.5px solid black; 
+	border-radius: 50px; 
+	box-shadow: 0px 0px 15px 1px black;
+}
+
+
+.konst2img {
+position: absolute; 
+width: 170px; 
+height: 173px; 
+left: 110px;
+top: 28px;
+transition: 0.1s;
+}
+
+.konst2:hover .konst2img {
+	position: absolute; 
+	width: 180px; 
+	height: 186px; 
+	left: 100px;
+	top: 30px;
+}
+
+
+.konst21 {
+
+position: absolute;
+width: 250px; 
+height: 44px; 
+left: 60px; 
+bottom: 32px; 
+font-family: sans-serif; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 23px; 
+line-height: 26px; 
+text-align: center; 
+letter-spacing: 0.05em; 
+color: black;
+transition: 0.25s;
+}
+
+
+.konst2:hover .konst21 {
+
+	position: absolute;
+	width: 250px; 
+	height: 44px; 
+	left: 60px; 
+	bottom: 32px; 
+	font-family: sans-serif; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-size: 23px; 
+	line-height: 26px; 
+	text-align: center; 
+	letter-spacing: 0.1em; 
+	color: black;
+}
+
+
+
+.shirina {
+position: absolute;
+width: 155px;
+height: 35px;
+left: 615px;
+top: 670px;
+background: white;
+border: 1.5px solid black;
+box-shadow: 0px 0px 10px 1px black;
+border-radius: 17px;
+transition: 0.25s	
+}
+
+.shirina:hover {
+	position: absolute;
+	width: 155px;
+	height: 35px;
+	left: 615px;
+	top: 670px;
+	background: white;
+	border: 1.5px solid black;
+	box-shadow: 0px 0px 15px 1px black;
+	border-radius: 17px;	
+}
+
+.shirinatext {
+position: absolute;
+width: 100px;
+height: 15px;
+left: 10px;
+top: 8px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: black;
+z-index: 1;
+}
+
+
+.visota {
+position: absolute;
+width: 155px;
+height: 35px;
+left: 830px;
+top: 670px;
+background: white;
+border: 1.5px solid black;
+box-shadow: 0px 0px 10px 1px black;
+border-radius: 17px;
+transition: 0.25s	
+}
+
+.visota:hover {
+	position: absolute;
+	width: 155px;
+	height: 35px;
+	left: 830px;
+	top: 670px;
+	background: white;
+	border: 1.5px solid black;
+	box-shadow: 0px 0px 15px 1px black;
+	border-radius: 17px;	
+}
+
+.visotatext {
+position: absolute;
+width: 88px;
+height: 15px;
+left: 10px;
+top: 8px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: black;
+z-index: 1;
+}
+
+
+
+
+.konst3 {
+position: absolute; 
+width: 370px;
+height: 370px; 
+right: 120px;
+top: 260px; 
+border: 1.5px solid black; 
+border-radius: 50px; 
+box-shadow: 0px 0px 10px 1px black;
+transition: 0.25s;
+}
+
+
+.konst3:hover {
+	position: absolute; 
+	width: 370px;
+	height: 370px; 
+	right: 120px;
+	top: 260px; 
+	border: 1.5px solid black; 
+	border-radius: 50px; 
+	box-shadow: 0px 0px 15px 1px black;
+}
+
+.konst3text {
+position: absolute;
+width: 270px;
+height: 45px;
+left: 50px;
+top: 150px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.05em;
+color: black;
+transition: 0.25s;
+
+}
+
+.konst3:hover .konst3text {
+	position: absolute;
+	width: 280px;
+	height: 45px;
+	left: 45px;
+	top: 150px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: black;
+	
+}
+
+
+
+.createsticker {
+position: absolute;
+width: 165px;
+height: 40px;
+left: 1213px;
+top: 665px;
+border: 1.5px solid black;
+box-shadow: 0px 0px 10px 1px black;
+border-radius: 20px;
+transition: 0.25s;
+}
+
+
+.createsticker:hover {
+	position: absolute;
+	width: 175px;
+	height: 40px;
+	left: 1210px;
+	top: 665px;
+	border: 1.5px solid black;
+	box-shadow: 0px 0px 15px 1px black;
+	border-radius: 20px;
+}
+
+
+.createstickertext {
+position: absolute;
+width: 145px;
+height: 15px;
+left: 10px;
+top: 10px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.02em;
+color: black;
+transition: 0.25s;
+}
+
+
+
+
+.createsticker:hover .createstickertext {
+	position: absolute;
+	width: 165px;
+	height: 15px;
+	left: 5px;
+	top: 10px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.07em;
+	color: black;
+}
+
